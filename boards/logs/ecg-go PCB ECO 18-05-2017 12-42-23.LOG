@@ -1,3 +1,0 @@
-Added Component: Designator=U1(QFN40P600X600X90-48N)
-Added Pin To Net: NetName=GND Pin=U1-49
-Added Member To Class: ClassName=U_core Member=Component U1 nRF51x22-QFAA

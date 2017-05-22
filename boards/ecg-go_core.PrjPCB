@@ -39,7 +39,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=lib\ecg-go.PcbLib
+DocumentPath=pcb\ecg-go_core.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -53,33 +53,16 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=TGKANXYY
+DocumentUniqueId=UIAQHLMW
 
 [Document2]
-DocumentPath=lib\ecg-go.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DJPIMGTU
-
-[Document3]
 DocumentPath=sch\afe.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -89,92 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CURUUSEL
 
-[Document4]
-DocumentPath=sch\core.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ALJJUMQY
-
-[Document5]
-DocumentPath=sch\batt_power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TWJKXIGP
-
-[Document6]
-DocumentPath=sch\user_interface.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IJEPLJHN
-
-[Document7]
-DocumentPath=lib\misc.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PTMPHBHV
-
-[Document8]
-DocumentPath=lib\nrf51x22_qfax.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
+[Document3]
 DocumentPath=sch\afe.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -191,7 +89,75 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document4]
+DocumentPath=sch\core.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ALJJUMQY
+
+[Document5]
+DocumentPath=sch\interface.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IJEPLJHN
+
+[Document6]
+DocumentPath=lib\ecg-go.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=lib\ecg-go.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
 DocumentPath=lib\misc.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -206,27 +172,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OVKBDPHQ
+DocumentUniqueId=
 
-[Document11]
-DocumentPath=sch\main.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HMABHJFK
-
-[Document12]
-DocumentPath=pcb\ecg-go.PcbDoc
+[Document9]
+DocumentPath=lib\misc.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -240,15 +189,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UIAQHLMW
+DocumentUniqueId=
 
-[ProjectVariant1]
-UniqueID=22E00BE3-D770-4071-B7A9-62CDF6D8636D
-Description=Release
-AllowFabrication=0
-ParameterCount=0
-VariationCount=0
-ParamVariationCount=0
+[Document10]
+DocumentPath=lib\nrf51x22_qfax.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Default Configuration
@@ -265,7 +223,7 @@ OutputDir=outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -396,7 +354,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -417,7 +375,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -549,7 +507,7 @@ PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -571,7 +529,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -643,7 +601,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -680,7 +638,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -860,7 +818,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -899,7 +857,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1189,7 +1147,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=1
+SortOrder=3
 SortLocation=0
 MatchParameter1=Comment
 MatchStrictly1=1
@@ -1212,18 +1170,6 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ecg-go.SchLib
-ComponentDesignItemID0=ADS1292R
-ComponentSymbolReference0=ADS1292R
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=nrf51x22_qfax.IntLib
-ComponentDesignItemID1=nRF51x22_QFAx
-ComponentSymbolReference1=nRF51x22_QFAx
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1237,64 +1183,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=2nd source part number
-ParameterUpdate0=1
-ParameterName1=2nd source Supplier
-ParameterUpdate1=1
-ParameterName2=Artikkelnr Noca
-ParameterUpdate2=1
-ParameterName3=Artikkelnr Simpro
-ParameterUpdate3=1
-ParameterName4=Assembly
-ParameterUpdate4=1
-ParameterName5=Comment
-ParameterUpdate5=1
-ParameterName6=Component Kind
-ParameterUpdate6=1
-ParameterName7=Datasheet
-ParameterUpdate7=1
-ParameterName8=Description
-ParameterUpdate8=1
-ParameterName9=Footprint Doc
-ParameterUpdate9=1
-ParameterName10=LatestRevisionDate
-ParameterUpdate10=1
-ParameterName11=Library Reference
-ParameterUpdate11=1
-ParameterName12=Manufacturer
-ParameterUpdate12=1
-ParameterName13=Manufacturer Part Number
-ParameterUpdate13=1
-ParameterName14=Note
-ParameterUpdate14=1
-ParameterName15=Part Number
-ParameterUpdate15=1
-ParameterName16=Part number IPS
-ParameterUpdate16=1
-ParameterName17=Pin Count
-ParameterUpdate17=1
-ParameterName18=Published
-ParameterUpdate18=1
-ParameterName19=Publisher
-ParameterUpdate19=1
-ParameterName20=Supplier
-ParameterUpdate20=1
-ParameterName21=Supplier 1
-ParameterUpdate21=1
-ParameterName22=Supplier part number
-ParameterUpdate22=1
-ParameterName23=Supplier Part Number 1
-ParameterUpdate23=1
-ParameterName24=Value
-ParameterUpdate24=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=ADS129x_QFN
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=QFN40P600X600X90-48N
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1308,7 +1196,4 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 

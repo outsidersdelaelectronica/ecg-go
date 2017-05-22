@@ -1,4 +1,6 @@
 [ProjectGroup]
 Version=1.0
 [Project1]
-ProjectPath=ecg-go.PrjPCB
+ProjectPath=ecg-go_core.PrjPCB
+[Project2]
+ProjectPath=ecg-go_power.PrjPCB
