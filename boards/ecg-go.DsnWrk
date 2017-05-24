@@ -4,3 +4,5 @@ Version=1.0
 ProjectPath=ecg-go_core.PrjPCB
 [Project2]
 ProjectPath=ecg-go_power.PrjPCB
+[Project3]
+ProjectPath=ecg-go_panel.PrjPCB
