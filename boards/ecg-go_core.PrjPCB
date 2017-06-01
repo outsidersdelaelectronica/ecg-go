@@ -56,13 +56,13 @@ GenerateClassCluster=0
 DocumentUniqueId=UIAQHLMW
 
 [Document2]
-DocumentPath=sch\afe.SchDoc
-AnnotationEnabled=0
+DocumentPath=sch\controller.SchDoc
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -70,10 +70,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CURUUSEL
+DocumentUniqueId=ALJJUMQY
 
 [Document3]
-DocumentPath=sch\controller.SchDoc
+DocumentPath=sch\afe.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -87,7 +87,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ALJJUMQY
+DocumentUniqueId=CURUUSEL
 
 [Document4]
 DocumentPath=sch\imu.SchDoc
@@ -113,7 +113,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -266,7 +266,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -277,7 +277,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YGMHXDCM
 
 [Document15]
-DocumentPath=sch\controller.Harness
+DocumentPath=sch\imu.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -294,7 +294,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=sch\imu.Harness
+DocumentPath=sch\controller.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -309,6 +309,17 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=46D0F1BF-EF6A-4152-B07F-23194F08A6DF
+Description=Release
+AllowFabrication=0
+ParameterCount=0
+VariationCount=3
+Variation1=Designator=R16|UniqueId=\DICWKDKG\HGVLCBOA|Kind=1|AlternatePart= 
+Variation2=Designator=C6|UniqueId=\JQLQWSQK\QGLBXLQR|Kind=1|AlternatePart= 
+Variation3=Designator=R6|UniqueId=\JQLQWSQK\HLXPAYED|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Configuration1]
 Name=Default Configuration
