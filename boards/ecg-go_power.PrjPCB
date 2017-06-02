@@ -45,7 +45,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -146,7 +146,7 @@ Description=Release
 AllowFabrication=0
 ParameterCount=0
 VariationCount=1
-Variation1=Designator=R2|UniqueId=\WBXAKJER|Kind=1|AlternatePart= 
+Variation1=Designator=R6|UniqueId=\WBXAKJER|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -154,18 +154,23 @@ UniqueID=8638D41A-A171-4162-9855-382B6762E7F2
 Description=Release (No fuel gauge)
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
-Variation1=Designator=R2|UniqueId=\WBXAKJER|Kind=1|AlternatePart= 
-Variation2=Designator=U?|UniqueId=\JSGGTBXC|Kind=1|AlternatePart= 
-Variation3=Designator=C3|UniqueId=\UYGKUNKW|Kind=1|AlternatePart= 
-Variation4=Designator=R3|UniqueId=\TUCBEHQQ|Kind=1|AlternatePart= 
+VariationCount=11
+Variation1=Designator=R6|UniqueId=\WBXAKJER|Kind=1|AlternatePart= 
+Variation2=Designator=U1|UniqueId=\JSGGTBXC|Kind=1|AlternatePart= 
+Variation3=Designator=C5|UniqueId=\UYGKUNKW|Kind=1|AlternatePart= 
+Variation4=Designator=R4|UniqueId=\TUCBEHQQ|Kind=1|AlternatePart= 
 Variation5=Designator=C3|UniqueId=\ATTAAATV|Kind=1|AlternatePart= 
-Variation6=Designator=C2|UniqueId=\YSMILRGS|Kind=1|AlternatePart= 
-Variation7=Designator=C3|UniqueId=\EDLUITJJ|Kind=1|AlternatePart= 
-Variation8=Designator=R3|UniqueId=\NMSRAFYS|Kind=1|AlternatePart= 
+Variation6=Designator=C1|UniqueId=\YSMILRGS|Kind=1|AlternatePart= 
+Variation7=Designator=C2|UniqueId=\EDLUITJJ|Kind=1|AlternatePart= 
+Variation8=Designator=R2|UniqueId=\NMSRAFYS|Kind=1|AlternatePart= 
 Variation9=Designator=C4|UniqueId=\USDQWODQ|Kind=1|AlternatePart= 
 Variation10=Designator=R3|UniqueId=\QMTTDNNW|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation11=Designator=R1|UniqueId=\NAQCCNFJ|Kind=0|AlternatePart==Value
+ParamVariation1=ParameterName=Value|VariantValue=0
+ParamDesignator1=R1
+ParamVariation2=ParameterName=Comment|VariantValue==Value
+ParamDesignator2=R1
+ParamVariationCount=2
 
 [Configuration1]
 Name=Default Configuration
