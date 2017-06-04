@@ -332,10 +332,11 @@ UniqueID=46D0F1BF-EF6A-4152-B07F-23194F08A6DF
 Description=Release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=4
 Variation1=Designator=R16|UniqueId=\DICWKDKG\HGVLCBOA|Kind=1|AlternatePart= 
 Variation2=Designator=C6|UniqueId=\JQLQWSQK\QGLBXLQR|Kind=1|AlternatePart= 
 Variation3=Designator=R6|UniqueId=\JQLQWSQK\HLXPAYED|Kind=1|AlternatePart= 
+Variation4=Designator=C28|UniqueId=\FFPUBGVE\WDKKSPFA|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -353,7 +354,7 @@ OutputDir=outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -484,7 +485,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -637,7 +638,7 @@ PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -659,7 +660,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -731,7 +732,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -768,7 +769,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -948,7 +949,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Component states check
 OutputName1=Vault's components states check
@@ -987,7 +988,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Pitufa (Intxa)
+TargetPrinter=HPLaserJetP2055 (HP LaserJet P2055dn)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
