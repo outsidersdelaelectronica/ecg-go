@@ -332,11 +332,12 @@ UniqueID=46D0F1BF-EF6A-4152-B07F-23194F08A6DF
 Description=Release
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
+VariationCount=5
 Variation1=Designator=R20|UniqueId=\DICWKDKG\HGVLCBOA|Kind=1|AlternatePart= 
 Variation2=Designator=C6|UniqueId=\JQLQWSQK\QGLBXLQR|Kind=1|AlternatePart= 
 Variation3=Designator=R6|UniqueId=\JQLQWSQK\HLXPAYED|Kind=1|AlternatePart= 
 Variation4=Designator=C28|UniqueId=\FFPUBGVE\WDKKSPFA|Kind=1|AlternatePart= 
+Variation5=Designator=C31|UniqueId=\FFPUBGVE\KLQJPPDG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
