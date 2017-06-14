@@ -340,6 +340,10 @@ Variation4=Designator=C28|UniqueId=\FFPUBGVE\WDKKSPFA|Kind=1|AlternatePart=
 Variation5=Designator=C31|UniqueId=\FFPUBGVE\KLQJPPDG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=outputs\Design Rule Check - ecg-go_core.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
